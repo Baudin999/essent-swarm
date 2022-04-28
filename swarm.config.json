@@ -1,6 +1,7 @@
 {
     "sources": [
-        
         "https://github.com/Baudin999/swarm-techlab-content.git"
-    ]
+    ],
+    "publish": "https://github.com/Baudin999/swarm-essent.git",
+    "baseUrl": "https://victorious-plant-0ca2c1c03.1.azurestaticapps.net/"
 }
