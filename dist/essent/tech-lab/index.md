@@ -2,9 +2,7 @@
 name: TechLab
 role: R&D
 organisation: Essent
-image: ./techlab_home.png
+image: ./Techlab_ElisaSmookPhoto-1228.png
 ---
 
-
-# We are TechLab!
-
+TechLab is a group of enthusiastic Essent IT colleagues that gather every Friday and work on proof of concepts. Interested? Follow them on this site every Friday.

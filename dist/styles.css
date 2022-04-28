@@ -579,6 +579,9 @@ a.hover:hover {
   display: flex;
   flex-direction: row;
 }
+.header-nav--logo img {
+  max-height: 30px;
+}
 .header-nav ul {
   list-style: none;
   display: flex;
