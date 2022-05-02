@@ -6,6 +6,7 @@ date: 25-04-2022
 tags:
     - Architecture
     - Craftsmanship
+image: ./image.jpg
 ---
 
 # Storytelling
