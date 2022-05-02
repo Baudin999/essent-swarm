@@ -5,6 +5,4 @@ organisation: Essent
 image: ./techlab_home.png
 ---
 
-
-# We are TechLab!
-
+TechLab is a group of enthusiastic Essent IT colleagues that gather every Friday and work on proof of concepts. Interested? Follow them on this site every Friday.

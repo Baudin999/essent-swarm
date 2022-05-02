@@ -92,6 +92,7 @@
                             &quot;craftsmanship&quot;
                         ],
                         &quot;date_real&quot;: &quot;2022-04-24T22:00:00.000Z&quot;,
+                        &quot;publish&quot;: true,
                         &quot;SEO&quot;: {
                             &quot;title&quot;: &quot;Storytelling within the art of Enterprise Architecture&quot;,
                             &quot;author&quot;: &quot;Carlos Kelkboom&quot;,
@@ -101,7 +102,8 @@
                                 &quot;architecture&quot;,
                                 &quot;craftsmanship&quot;
                             ],
-                            &quot;date_real&quot;: &quot;2022-04-24T22:00:00.000Z&quot;
+                            &quot;date_real&quot;: &quot;2022-04-24T22:00:00.000Z&quot;,
+                            &quot;publish&quot;: true
                         },
                         &quot;author_id&quot;: &quot;carlos-kelkboom&quot;,
                         &quot;author_role&quot;: &quot;Technical Fellow&quot;,
@@ -128,51 +130,13 @@
                 },
                 &quot;path&quot;: &quot;D:\\Projects\\essent-swarm\\content\\Baudin999\\swarm-techlab-content\\Essent\\tech-lab&quot;,
                 &quot;url&quot;: &quot;https://it.essent.nl/essent/tech-lab/&quot;,
-                &quot;html&quot;: &quot;&lt;h1&gt;We are TechLab!&lt;/h1&gt;\n&quot;,
-                &quot;blogs&quot;: [
-                    {
-                        &quot;id&quot;: &quot;tell-a-story&quot;,
-                        &quot;path&quot;: &quot;D:\\Projects\\essent-swarm\\content\\Baudin999\\swarm-techlab-content\\Essent\\tech-lab\\tell-a-story&quot;,
-                        &quot;title&quot;: &quot;Tell a story&quot;,
-                        &quot;tags&quot;: [],
-                        &quot;author&quot;: &quot;TechLab&quot;,
-                        &quot;date_real&quot;: &quot;2022-04-28T05:53:32.563Z&quot;,
-                        &quot;date&quot;: &quot;Thu Apr 28 2022&quot;,
-                        &quot;SEO&quot;: {
-                            &quot;title&quot;: &quot;Tell a story&quot;,
-                            &quot;tags&quot;: [],
-                            &quot;author&quot;: &quot;TechLab&quot;,
-                            &quot;date_real&quot;: &quot;2022-04-28T05:53:32.563Z&quot;,
-                            &quot;date&quot;: &quot;Thu Apr 28 2022&quot;,
-                            &quot;description&quot;: &quot;The Essent IT blog&quot;
-                        },
-                        &quot;author_id&quot;: &quot;tech-lab&quot;,
-                        &quot;author_role&quot;: &quot;R&amp;D&quot;,
-                        &quot;url&quot;: &quot;https://it.essent.nl/essent/tech-lab/tell-a-story/&quot;,
-                        &quot;html&quot;: &quot;&lt;h1&gt;Tell a story&lt;/h1&gt;\n&quot;
-                    }
-                ]
+                &quot;html&quot;: &quot;&lt;p&gt;TechLab is a group of enthusiastic Essent IT colleagues that gather every Friday and work on proof of concepts. Interested? Follow them on this site every Friday.&lt;/p&gt;\n&quot;,
+                &quot;blogs&quot;: []
             }
         ]
     }
 ]</code></pre>
                 <p>You can also get all of the blogs from the global state:</p><pre><code>import globalState from &#x27;./globalState.js&#x27; var blogs = globalState.getState(&#x27;all_blogs&#x27;);</code></pre><pre><code>[
-    {
-        &quot;id&quot;: &quot;tell-a-story&quot;,
-        &quot;path&quot;: &quot;D:\\Projects\\essent-swarm\\content\\Baudin999\\swarm-techlab-content\\Essent\\tech-lab\\tell-a-story&quot;,
-        &quot;title&quot;: &quot;Tell a story&quot;,
-        &quot;tags&quot;: [],
-        &quot;author&quot;: &quot;TechLab&quot;,
-        &quot;date_real&quot;: &quot;2022-04-28T05:53:32.563Z&quot;,
-        &quot;date&quot;: &quot;Thu Apr 28 2022&quot;,
-        &quot;author_id&quot;: &quot;tech-lab&quot;,
-        &quot;author_role&quot;: &quot;R&amp;D&quot;,
-        &quot;url&quot;: &quot;https://it.essent.nl/essent/tech-lab/tell-a-story/&quot;,
-        &quot;author_name&quot;: &quot;TechLab&quot;,
-        &quot;link&quot;: &quot;/essent/tech-lab/tell-a-story&quot;,
-        &quot;org_id&quot;: &quot;essent&quot;,
-        &quot;org_name&quot;: &quot;Essent&quot;
-    },
     {
         &quot;id&quot;: &quot;storytelling-001&quot;,
         &quot;path&quot;: &quot;D:\\Projects\\essent-swarm\\content\\Baudin999\\swarm-techlab-content\\Essent\\carlos-kelkboom\\storytelling-001&quot;,
@@ -185,6 +149,7 @@
             &quot;craftsmanship&quot;
         ],
         &quot;date_real&quot;: &quot;2022-04-24T22:00:00.000Z&quot;,
+        &quot;publish&quot;: true,
         &quot;author_id&quot;: &quot;carlos-kelkboom&quot;,
         &quot;author_role&quot;: &quot;Technical Fellow&quot;,
         &quot;url&quot;: &quot;https://it.essent.nl/essent/carlos-kelkboom/storytelling-001/&quot;,

@@ -312,6 +312,7 @@ a.hover:hover {
 }
 .home-container .home--authors {
   margin-top: 3rem;
+  background: transparent;
 }
 .home-container .home--authors h1 {
   width: 100%;
@@ -329,6 +330,7 @@ a.hover:hover {
   -ms-user-select: none;
   user-select: none;
   margin: 0 1rem;
+  background: inherit;
 }
 .home-container .home--authors--container--author {
   text-decoration: none;
@@ -339,16 +341,19 @@ a.hover:hover {
   padding: 0 1rem;
   text-align: center;
   margin-bottom: 1rem;
+  background: inherit;
 }
 .home-container .home--authors--container--author:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 .home-container .home--authors--container--author--image {
-  max-height: 300px;
-  max-width: 300px;
+  height: 300px;
+  width: 300px;
 }
 .home-container .home--authors--container--author--image img {
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
 }
 .home-container .home--authors--container--author--name {
@@ -578,6 +583,9 @@ a.hover:hover {
   margin-right: auto;
   display: flex;
   flex-direction: row;
+}
+.header-nav--logo img {
+  max-height: 30px;
 }
 .header-nav ul {
   list-style: none;
