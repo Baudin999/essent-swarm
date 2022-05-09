@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-reactroot="">
+    
+    <head>
+        <title>IT Essent</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"
+        />
+        <meta http-equiv="Content-Security-Policy" content="script-src &#x27;self&#x27; https://unpkg.com https://cdnjs.cloudflare.com"
+        />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="title" content="IT Essent" />
+        <meta name="description" content="The Essent IT blog" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"
+        as="font" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="https://it.essent.nl/styles.css"
+        />
+        <script crossorigin="true" src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <script crossorigin="true" src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/monokai.min.css"
+        />
+    </head>
+    
+    <body>
+        <div class="root">
+            <div class="header">
+                <div class="header-nav">
+                    <ul>
+                        <li class="header-nav--logo"><a href="https://it.essent.nl/"><img src="https://it.essent.nl/logo.png" alt="image"/></a>
+                        </li>
+                        <li class="header-nav--tags">
+                            <ul class="tags">
+                                <li class="">
+                                    <div><a class="hover" href="https://it.essent.nl/craftsmanship">Craftsmanship</a>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div><span class="separator"> | </span><a class="hover" href="https://it.essent.nl/architecture">Architecture</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="root--content">
+                <div class="container">
+                    <input id="search-field" />
+                    <button id="search-field-execute">Search</button>
+                    <div id="search-results"></div>
+                    <div>
+                        <script>
+                            var items = [
+                                {
+                                    "name": "we all have a role to play carlos kelkboom",
+                                    "title": "We all have a role to play",
+                                    "description": "undefined<div>Carlos Kelkboom</div><div>Sun May 08 2022</div>",
+                                    "url": "https://it.essent.nl/essent/carlos-kelkboom/we-have-a-role-to-play/"
+                                },
+                                {
+                                    "name": "our view on becoming a tech company geert bossuyt",
+                                    "title": "Our view on becoming a Tech Company",
+                                    "description": "At Essent, our view on energy is that Sustainability and the energy transition are about people‘s behavior. We want to help everyone take their next step in energy and to do so we’ve planned simple, sustainable, and affordable solutions. In our ambition to deliver these products that will change the behavior of our customers.<div>Geert Bossuyt</div><div>Thu May 05 2022</div>",
+                                    "url": "https://it.essent.nl/essent/geert-bossuyt/our-view-on-becoming-a-tech-company/"
+                                },
+                                {
+                                    "name": "storytelling within the art of enterprise architecture carlos kelkboom",
+                                    "title": "Storytelling within the art of Enterprise Architecture",
+                                    "description": "Kobe Bryant, arguably one of the top ten basketball players to have ever played the game was a tremendous story teller. If you have ever seen his interviews you’ll know how much impact his words have had on a generation of basketball players. Storytelling is what drives our imagination; storytelling is what took our species from tribes trying to survive by gathering and hunting our food to a species on the cusp of interplanetary space travel.<div>Carlos Kelkboom</div><div>Mon Apr 25 2022</div>",
+                                    "url": "https://it.essent.nl/essent/carlos-kelkboom/storytelling-001/"
+                                },
+                                {
+                                    "name": "carlos kelkboom",
+                                    "title": "Carlos Kelkboom",
+                                    "url": "https://it.essent.nl/essent/carlos-kelkboom/"
+                                },
+                                {
+                                    "name": "geert bossuyt",
+                                    "title": "Geert Bossuyt",
+                                    "url": "https://it.essent.nl/essent/geert-bossuyt/"
+                                },
+                                {
+                                    "name": "techlab",
+                                    "title": "TechLab",
+                                    "url": "https://it.essent.nl/essent/tech-lab/"
+                                },
+                                {
+                                    "name": "essent",
+                                    "title": "Essent",
+                                    "description": "The nr one energy company",
+                                    "url": "https://it.essent.nl/essent/"
+                                }
+                            ]
+                            
+                            function search() {
+                                var searchField = document.getElementById('search-field');
+                                var searchValue = searchField.value.toLowerCase();
+                                var searchResults = document.getElementById('search-results');
+                                var results = items.filter(i => i.name.indexOf(searchValue) > -1);
+                            
+                                if (!results || results.length === 0) {
+                                    searchResults.innerHTML = 'Could not find anything';
+                                }
+                                else {
+                                    searchResults.innerHTML = '';
+                                    results.forEach(result => {
+                                        let element = document.createElement('div');
+                                        let content = `<div class='search-result'><a class='accented hover' href='${result.url}'>${result.title}<div>${result.description}</div></a></div>`;
+                                        element.innerHTML = content;
+                                        searchResults.appendChild(element);
+                                    });
+                                }
+                            }
+                            
+                            var button = document.getElementById('search-field-execute');
+                            button.addEventListener('click', search, false);
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
