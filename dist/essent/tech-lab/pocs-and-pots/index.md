@@ -5,7 +5,7 @@ description: How do we select and work on projects? Our main focus is trying out
 date: 25-04-2022
 tags:
     - TechLab
-image: ./techlab-home.png
+image: ./image.jpg
 ---
 
 # POC’s and POT’s

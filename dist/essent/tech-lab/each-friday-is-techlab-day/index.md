@@ -5,7 +5,7 @@ description: Each Friday is Techlab Day. We spend half of the Techlab days at th
 date: 25-04-2022
 tags:
     - TechLab
-image: ./techlab-home.png
+image: ./image.png
 ---
 
 # Each Friday is Techlab Day
