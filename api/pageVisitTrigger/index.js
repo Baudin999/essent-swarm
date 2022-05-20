@@ -6,23 +6,27 @@ module.exports = async function (context, req) {
     //     ? "Hello, " + name + ". This HTTP triggered function executed successfully."
     //     : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
 
-    const responseMessage = JSON.stringify({
-        name: "Carlos",
-        description: "This is something"
-    });
+    //const responseMessage = JSON.stringify(context.bindings.outputDocument, null, 4);
 
     //const responseMessage = JSON.stringify(context.bindings.outputDocument, null, 4);
 
-        // if (name) {
-        //     context.bindings.outputDocument = JSON.stringify({
-        //         // create a random ID
-        //         id: new Date().toISOString() + Math.random().toString().substr(2,8),
-        //         page: name
-        //     });
-        // }
+        if (name) {
+            context.bindings.outputDocument = JSON.stringify({
+                // create a random ID
+                id: new Date().toISOString() + Math.random().toString().substr(2,8),
+                page: name
+            });
 
-    context.res = {
-        // status: 200, /* Defaults to 200 */
-        body: responseMessage
-    };
+            context.res = {
+                // status: 200, /* Defaults to 200 */
+                body: "Successfully added data to database"
+            };
+        }
+        else {
+            context.res = {
+                body: "No name supplied: ?name=Carlos"
+            }
+        }
+
+    
 }
