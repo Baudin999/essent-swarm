@@ -19,12 +19,10 @@
       "type": "cosmosDB",
       "direction": "out",
       "name": "outputDocument",
-      "databaseName": "essentitblog",
-      "collectionName": "it.essent.nl",
+      "databaseName": "it.essent.nl",
+      "collectionName": "pageVisists",
       "createIfNotExists": false,
-      "connectionStringSetting": "CosmosDbConnectionString",
-      "partitionKey": "undefined",
-      "collectionThroughput": "undefined"
+      "connectionStringSetting": "CosmosDbConnectionString"
     }
   ]
 }
