@@ -1,7 +1,7 @@
 ---
 title: Storytelling within the art of Enterprise Architecture 
 author: Carlos Kelkboom
-description: Kobe Bryant, arguably one of the top ten basketball players to have ever played the game was a tremendous story teller. If you have ever seen his interviews you’ll know how much impact his words have had on a generation of basketball players. Storytelling is what drives our imagination; storytelling is what took our species from tribes trying to survive by gathering and hunting our food to a species on the cusp of interplanetary space travel.
+description: Kobe Bryant, arguably one of the top ten basketball players to have ever played the game was a tremendous story teller. If you have ever seen his interviews you’ll know how much impact his words have had on a generation of basketball players. Storytelling is what drives our imagination; storytelling is what took our species from tribes trying to survive by gathering and hunting our food to a species on the cusp of interplanetary space travel. This is a story of how we should employ storytelling in our enterprise architecture.
 date: 25-04-2022
 tags:
     - Architecture

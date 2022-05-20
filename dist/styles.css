@@ -45,27 +45,39 @@ input,
 select {
   all: unset;
 }
+@font-face {
+  font-family: baton-black;
+  src: url("Baton-Black.otf");
+}
 h1 {
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 39.81px;
+  line-height: 48px;
   margin: 0 0 30px;
-  color: #aa014c;
-  font-weight: bold;
+  color: #E60167;
+  font-weight: 900;
+  font-family: Lato;
+}
+h2.title {
+  font-family: baton-black;
+  text-transform: uppercase;
+  color: #E60167;
+  font-weight: 900;
+  text-align: center;
 }
 h2 {
-  font-size: 28px;
-  font-weight: normal;
-  line-height: 32px;
+  font-size: 33.18px;
+  font-weight: 900;
+  line-height: 30px;
   margin: 0 0 24px;
   padding: 12px 0 0;
+  font-family: Lato;
 }
 h3 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 24px;
+  font-size: 27.65px;
+  font-weight: 900;
+  line-height: 30px;
   margin: 0 0 24px;
   padding: 12px 0 0;
-  text-transform: uppercase;
 }
 p,
 a,
@@ -86,11 +98,11 @@ a {
   color: inherit;
 }
 a.accented {
-  color: #aa014c;
+  color: #E60167;
 }
 a.hover:hover {
   text-decoration: underline;
-  color: #aa014c;
+  color: #E60167;
 }
 .blog-container {
   width: 100%;
@@ -107,7 +119,7 @@ a.hover:hover {
 }
 .blog-container .blog--title {
   font-weight: bold;
-  color: #aa014c;
+  color: #E60167;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -163,7 +175,7 @@ a.hover:hover {
 .blog-container .blog h4,
 .blog-container .blog h5,
 .blog-container .blog h6 {
-  color: #aa014c;
+  color: #E60167;
 }
 @media (min-width: 150px) {
   .blog-container .blog {
@@ -221,7 +233,7 @@ a.hover:hover {
   background-image: none;
   background: transparent;
   text-align: center;
-  color: #aa014c;
+  color: #E60167;
   margin-bottom: 2rem;
 }
 .home-container .home {
@@ -265,7 +277,7 @@ a.hover:hover {
 }
 .home-container .home--top-panel--right {
   width: 50%;
-  background-color: #aa014c;
+  background-color: #E60167;
   color: white;
   position: relative;
 }
@@ -277,8 +289,10 @@ a.hover:hover {
   padding: 4rem;
 }
 .home-container .home--top-panel--right--footer h2 {
-  text-transform: uppercase;
-  font-weight: 900;
+  color: white!important;
+  text-align: left!important;
+  font-size: 39.81px !important;
+  line-height: 40px!important;
 }
 .home-container .home--top-panel--right--footer--posts {
   color: inherit;
@@ -300,7 +314,7 @@ a.hover:hover {
 }
 .home-container .home--top-panel--right--footer--posts li:before {
   content: "\2022";
-  color: #3b83f6;
+  color: #00A9D1;
   font-weight: bold;
   font-size: 0.8rem;
   display: inline-block;
@@ -317,7 +331,7 @@ a.hover:hover {
 .home-container .home--authors h1 {
   width: 100%;
   text-align: center;
-  color: #aa014c;
+  color: #E60167;
   text-transform: uppercase;
   margin: 0;
 }
@@ -435,7 +449,7 @@ a.hover:hover {
   flex-direction: row;
 }
 .author-container .author-page h2 {
-  color: #aa014c;
+  color: #E60167;
 }
 .author-container .author-page img {
   margin-left: auto;
@@ -504,7 +518,7 @@ a.hover:hover {
 .container #search-field {
   width: 100%;
   padding: 5px;
-  border: 1px solid #aa014c;
+  border: 1px solid #E60167;
   margin-bottom: 1rem;
 }
 .container #search-field-execute {
@@ -622,13 +636,13 @@ a.hover:hover {
   display: inline-block;
 }
 .header-nav ul .header-nav--tags .tags li a:hover {
-  color: #aa014c;
+  color: #E60167;
 }
 .header-nav ul .header-nav--tags .tags li.selected {
-  color: #aa014c;
+  color: #E60167;
 }
 .header-nav ul .header-nav--tags .tags li.selected a {
-  color: #aa014c;
+  color: #E60167;
 }
 @media (min-width: 150px) {
   .header {
@@ -716,7 +730,7 @@ a.hover:hover {
 }
 .home-content-block--left h2 {
   text-transform: uppercase;
-  color: #aa014c;
+  color: #E60167;
   font-weight: 900;
   background-image: none;
   background: transparent;
@@ -735,7 +749,7 @@ a.hover:hover {
 }
 .home-content-block--right {
   flex: 5;
-  background: #aa014c;
+  background: #E60167;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -768,9 +782,7 @@ body,
 html {
   height: 100%;
   overflow: hidden;
-  font-family: Lato, 'Courier New', Courier, monospace;
-  font-display: swap;
-  font-size: 16px;
+  font-family: Lato;
 }
 .root {
   height: 100%;

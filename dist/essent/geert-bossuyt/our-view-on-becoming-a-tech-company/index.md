@@ -8,9 +8,6 @@ image: ./duck.png
 date: 05-05-2022
 ---
 
-
-# Our view on becoming a Tech Company
-
 At Essent, our view on energy is that Sustainability and the energy transition are about people‘s behavior. We want to help everyone take their next step in energy and to do so we’ve planned simple, sustainable, and affordable solutions. In our ambition to deliver these products that will change the behavior of our customers, I’m convinced that we will need to deliver 100-fold product iterations before we hit the bullseye.
 
 ## What does it take to become a true Tech Company?
