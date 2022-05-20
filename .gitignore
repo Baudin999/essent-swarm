@@ -1,1 +1,4 @@
-content
+/content
+/.vscode
+/.idea
+.DS_Store
