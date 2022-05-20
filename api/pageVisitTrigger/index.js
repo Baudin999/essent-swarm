@@ -1,32 +1,23 @@
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
-    const name = (req.query.name || (req.body && req.body.name));
-    // const responseMessage = name
-    //     ? "Hello, " + name + ". This HTTP triggered function executed successfully."
-    //     : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
+    const body =  req.body;
 
-    //const responseMessage = JSON.stringify(context.bindings.outputDocument, null, 4);
+    if (body && body.page) {
+        context.bindings.outputDocument = JSON.stringify({
+            // create a random ID
+            id: new Date().toISOString() + Math.random().toString().substr(2,8),
+            ...body
+        });
 
-    //const responseMessage = JSON.stringify(context.bindings.outputDocument, null, 4);
-
-        if (name) {
-            context.bindings.outputDocument = JSON.stringify({
-                // create a random ID
-                id: new Date().toISOString() + Math.random().toString().substr(2,8),
-                page: name
-            });
-
-            context.res = {
-                // status: 200, /* Defaults to 200 */
-                body: "Successfully added data to database"
-            };
+        context.res = {
+            // status: 200, /* Defaults to 200 */
+            body: "Successfully added data to database"
+        };
+    }
+    else {
+        context.res = {
+            body: "Invalid function call"
         }
-        else {
-            context.res = {
-                body: "No name supplied: ?name=Carlos"
-            }
-        }
-
-    
+    }
 }
