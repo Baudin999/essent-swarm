@@ -101,3 +101,8 @@ Software, like pencils, can only be developed, improved an brought to the next l
 A *craftsman* realizes that they are not the alpha and the omega of a topic. They realize that they, purely by the fact that they came before, will be one of the shoulders on which the next generation will stand. A *craftsman* is content in the fact that their skills, their discipline and their teaching will move their field forward.
 
 I am a technical fellow at Essent. I teach, I train and I help. My role is as much a detector of ineptness as it is an instigator of improvements through interaction. I take this seriously but I realize that I am not at the center of our journey towards *craftsmanship*. For me, being a technical fellow is about embodying the four pillars of *craftsmanship* and with my effort inspire the next generation of incredible engineers at Essent.
+
+
+If you have any comments or want to participate in the discussion, please join us 
+at [We all have a role to play](https://www.reddit.com/r/Essent_IT/comments/uwpfiw/we_all_have_a_role_to_play/),
+see you there!

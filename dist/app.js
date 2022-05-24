@@ -1,3 +1,4 @@
+
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -2695,3 +2696,4 @@ var analyze = function analyze() {
 
 analyze();
 //# sourceMappingURL=app.js.map
+
