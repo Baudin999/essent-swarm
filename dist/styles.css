@@ -195,6 +195,9 @@ a.hover:hover {
 .blog-container .blog h6 {
   color: #E60167;
 }
+.blog-container .blog a {
+  color: #E60167;
+}
 @media (min-width: 150px) {
   .blog-container .blog {
     max-width: calc(100% - 2rem);
