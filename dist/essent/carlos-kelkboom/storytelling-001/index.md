@@ -1,7 +1,7 @@
 ---
 title: Storytelling within the art of Enterprise Architecture 
 author: Carlos Kelkboom
-description: This story is about how we as an architecture community must focus on the story we are trying to tell. A story is what brings the core of what we are delivering to light. We should not skip the story, just so that we can spoil the ending. This article will describe how our habits and our tools cause us to miss most of the story and because of that, deliver software which could be a lot better.
+description: This story is about how we as an architecture community must focus on the narrative we are trying to tell. A story is what brings the core of what we are trying to deliver to light. This article describes how our habits and our tools cause us to miss most of the story and because of that, deliver software which could be a lot better.
 date: 03-06-2022
 tags:
     - Architecture
