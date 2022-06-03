@@ -10,7 +10,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="title" content="Storytelling within the art of Enterprise Architecture"
         />
-        <meta name="description" content="This story is about how we as an architecture community must focus on the story we are trying to tell. We should not skip the story, just so that we can spoil the ending. This article will show you how our habits and our tools cause us to miss most of the story and because of that. By becoming expert sotrytellers we will improve our software."
+        <meta name="description" content="This story is about how we as an architecture community must focus on the story we are trying to tell. A story is what brings the core of what we are delivering to light. We should not skip the story, just so that we can spoil the ending. This article will describe how our habits and our tools cause us to miss most of the story and because of that, deliver software which could be a lot better."
         />
         <link rel="stylesheet" type="text/css" href="https://it.essent.nl/styles.css"
         />
@@ -51,10 +51,11 @@
                     <div class="blog">
                         <div class="blog--title">Storytelling within the art of Enterprise Architecture</div>
                         <div class="blog--description">This story is about how we as an architecture community must focus on
-                            the story we are trying to tell. We should not skip the story, just so
-                            that we can spoil the ending. This article will show you how our habits
-                            and our tools cause us to miss most of the story and because of that. By
-                            becoming expert sotrytellers we will improve our software.</div>
+                            the story we are trying to tell. A story is what brings the core of what
+                            we are delivering to light. We should not skip the story, just so that
+                            we can spoil the ending. This article will describe how our habits and
+                            our tools cause us to miss most of the story and because of that, deliver
+                            software which could be a lot better.</div>
                         <div class="blog--title-bar">
                             <div class="blog--title-bar--author-pill">
                                 <img src="https://it.essent.nl/essent/carlos-kelkboom/carlos-square.jpg"
@@ -102,7 +103,7 @@
                                     most of the story and because of that, deliver software which could be
                                     a lot better.</p>
                                 
-<h2>Diagrams vs Stories</h2>
+<h2>Diagrams vs Story</h2>
 
                                 <p>One of our most important languages, as architects, is ArchiMate. We tend
                                     to use it to tell our story. Our focus on ArchiMate and the tools implementing
@@ -119,17 +120,16 @@
                                     <p>The ArchiMate Specification provides a common language and elements to
                                         enable enterprise, business, solution and technology architects, business
                                         analysts and modelers, and software engineers to describe, analyze, and
-                                        visualize the relationships among business domains in an unambiguous way.
-                                        - ArchiMate, Open Group</p>
+                                        visualize the relationships among business domains in an unambiguous way
+                                        - ArchiMate Open Group</p>
                                 </blockquote>
                                 <p>If the goal of the Open Group is to enable us, to achieve business objectives,
                                     then why do they not focus on storytelling? Are we to assume that a diagram
-                                    1 really triggers our imagination? Let alone our understanding? Where have
+                                    really triggers our imagination? Let alone our understanding? Where have
                                     we described the business objectives themselves so that others will understand
-                                    what our diagram describes? Without a narrative supporting the diagram
-                                    we will never achieve our goals.</p>
+                                    what our diagram describes? Where is the narrative supported by the diagram?</p>
                                 <p>
-                                    <img src="./archimate_example_001.png" alt="archimate_example_001.png">
+                                    <img src="./archimate_example_001.png" alt="An example ArchiMate diagram">
                                 </p>
                                 <p>When we see an image like the Archimate example our brains go into overdrive
                                     and we start looking for patterns. For some reason the yellow blocks are
@@ -140,33 +140,39 @@
                                     Open Group started whittling away at their problem space by writing down
                                     what the arrows, icons and corners mean. From the entire set of possibilities
                                     they defined their way to something they think is reasonable. But what
-                                    happens next? John, from upstairs, really needs a <em>business capability</em> to
-                                    be implemented through a certain <em>data object</em> by a <em>component</em>,
+                                    happens next? John, from upstairs, really needs a
+<em>business capability</em> to
+                                    be implemented through a certain <em>data object</em>
+by a <em>component</em>,
                                     and before we realize it we have a committee bloating our language with
                                     exceptions and clarifications.</p>
                                 <p>This is, of course, an over-simplification of what happens; but the gist
-                                    stands, nothing in the ArchiMate language is <em>axiomatic</em>, everything
-                                    is an interpretation and because the storytelling surrounding the rules
-                                    put forth by the Open Group is lacking at best, we end up with a set of
-                                    rules people need to <em>learn by heart</em> in order to have a chance at
-                                    understanding the diagrams individuals create.</p>
-                                <p>It is safe to assume that we now understand why none of the large <em>tech-companies</em> bother
-                                    using tools like <em>Archi</em> or <em>Enterprise Architect</em> by Sparx,
-                                    in their day to day development. Other types of organizations still use
-                                    these tools and as a consequence the gap between architecture and development
-                                    has never been bigger. To make matters worse, every five years we get a
-                                    paradigm which is a <em>silver bullet</em>. It might be <em>Functional Programming</em> or
-                                    it might be <em>Cloud</em>. It does not matter if it is a framework, a language
-                                    or an infrastructure. With a lack of a common sense architecture we are
-                                    faced with a plethora of choices regarding our development strategies and
-                                    the implementation of our stories.</p>
+                                    stands, nothing in the ArchiMate language is axiomatic, everything is an
+                                    interpretation and because the storytelling surrounding the rules put forth
+                                    by the Open Group is lacking at best, we end up with a set of rules people
+                                    need to <em>learn by heart</em> in order to have a chance at understanding
+                                    the diagrams individuals create.</p>
+                                <p>It is safe to assume that we now understand why none of the large
+<em>tech-companies</em> bother
+                                    using tools like <em>Archi</em> or <em>Enterprise
+Architect</em> by Sparx, in their day to day development. Other types of
+                                    organizations still use these tools and as a consequence the gap between
+                                    architecture and development has never been bigger. To make matters worse,
+                                    every five years we get a paradigm which is a <em>silver bullet</em>. It
+                                    might be <em>Functional Programming</em> or it might be <em>Cloud</em>. It
+                                    does not matter if it is a framework, a language or an infrastructure.
+                                    With a lack of a common sense architecture we are faced with a plethora
+                                    of choices regarding our development strategies and the implementation
+                                    of our stories.</p>
                                 <p><em>Micro-services</em>, for example, are a way of thinking about a solution.
                                     They are patterns, guidelines and best practices shared with us by inventors.
-                                    They are <em>tools</em> without a story. Not every story leads to a <em>micro-service architecture</em> and
-                                    not every story needs the <em>Interface Segregation Principle</em>. It is
-                                    true that once you are bringing your story to life like a director bringing
-                                    a play to the stage, you'll have a certain freedom to choreograph your
-                                    story. At the root of the implementation, however, remains the story.</p>
+                                    They are <em>tools</em> without a story. Not every story leads to a
+<em>micro-service architecture</em> and
+                                    not every story needs the <em>Interface
+Segregation Principle</em>. It is true that once you are bringing your
+                                    story to life like a director bringing a play to the stage, you'll have
+                                    a certain freedom to choreograph your story. At the root of the implementation,
+                                    however, remains the story.</p>
                                 
 <h1>Storytelling within Architecture</h1>
 
@@ -183,18 +189,21 @@
                                     within this statement and we can grow our understanding by talking to other
                                     people and sharing our patterns and assumptions with each other. Our tribal
                                     instincts can be met by human to human interaction. This storytelling,
-                                    at least for me, is at the heart of <em>Domain Driven Design</em>. And I
+                                    at least for me, is at the heart of
+<em>Domain Driven Design</em>. And I
                                     personally define a <em>Domain</em> as: &quot;An area of expertise I can
                                     fit into my brain.&quot;</p>
-                                <p>But, how can we create software if we just have a story? We will need
-                                    something we can validate, we can test, we can deploy and which we can
-                                    take ownership of and maintain.</p>
+                                <p>But, how can we create software if we just <em>have a story</em>? We will
+                                    need something we can validate, we can test, we can deploy and which we
+                                    can take ownership of and maintain.</p>
                                 <p>Yes, this is true, but we will need to crawl before we can walk and we'll
                                     need to walk before we can run. A child needs to feel safe to get the grounding
                                     they need to face the challenges of life. Software is the same, if we do
                                     not feel safe in our assumptions, if we do not feel confident in our skills
-                                    and if we do not trust our architects to work with us; we will never achieve
-                                    the level of software we will need to lift our business to a higher level.</p>
+                                    and if we do not trust our architects to work
+<em>with</em> us; we will never
+                                    achieve the level of software we will need to lift our business to a higher
+                                    level.</p>
                                 
 <h2>Start-ups vs Enterprises</h2>
 
@@ -202,7 +211,8 @@
                                     start-ups surpass larger enterprises? An <em>Enterprise</em> should have
                                     the money to outlast the competition, right? An <em>Enterprise</em> should
                                     have the money to look around, hire the best people and quickly integrate
-                                    great ideas into their own production, right? The answer lies in <em>storytelling</em>.
+                                    great ideas into their own production, right? The answer lies in
+<em>storytelling</em>.
                                     An <em>Enterprise</em> has hierarchy which means that the story can become
                                     fragmented and corrupted. Within an <em>Enterprise</em> a lot of focus and
                                     time is spent on <em>aligning ideas</em>, which is nothing more than: &quot;Getting
@@ -222,28 +232,29 @@
                                 
 <h2>Our story continues...</h2>
 
-                                <p>From our story we can distill that we have concepts like: “consumption”,
-                                    “electricity” and “consumer”. These story concepts will need to find a
-                                    place in our architecture. If we follow the breadcrumbs left by our story,
-                                    we will start to figure out the sequence in which the events of our story
-                                    take place.</p>
-                                <p>Our story starts with a consumer, consuming, electricity or gas. In this
-                                    part we set up the actors in our story, we describe how they interact,
+                                <p>From our story we can distill that we have concepts like: &quot;consumption&quot;,
+                                    &quot;electricity&quot; and &quot;consumer&quot;. These story concepts
+                                    will need to find a place in our architecture. If we follow the breadcrumbs
+                                    left by our story, we will start to figure out the sequence in which the <em>events</em> of
+                                    our story take place.</p>
+                                <p>Our story starts with a <em>consumer</em>, <em>consuming</em>, <em>electricity</em> or <em>gas</em>.
+                                    In this part we set up the actors in our story, we describe how they interact,
                                     what motivates our actors and what limits them. Clearly these actors need
-                                    something; or there would not be a story to write. Instead of saying: “A
-                                    consumer consumes electricity.” we might write something like: “Winter
+                                    something; or there would not be a story to write. Instead of saying: &quot;A
+                                    consumer consumes electricity.&quot; we might write something like: &quot;Winter
                                     is coming! An unexpected cold front will hit our lovely country with a
                                     fierceness which has been unparalleled for the last twenty years. Anna
                                     feels the cold seep through her walls and turns on her central heating
                                     which is powered by heating water through the burning of gas. This heating
-                                    consumes gas at an initial flow rate of per hour. This of course is only
-                                    in times when it is cold. During the summer the consumption of gas might
-                                    even drop to 0.” This story is starting to help us understand what “consumption”
-                                    actually is and why it is important for us to show it to Anna.</p>
-                                <p>To further help us understand this process we might want to draw an additional
-                                    diagram:</p>
+                                    consumes gas at an initial flow rate of 1/2m per hour. This of course is
+                                    only in times when it is cold. During the summer the consumption of gas
+                                    might even drop to 0.&quot; This story is starting to help us understand
+                                    what &quot;consumption&quot; actually is and why it is important for us
+                                    to show it to Anna.</p>
+                                <p>To further help us understand this <em>process</em> we might want to draw
+                                    an additional diagram:</p>
                                 <p>
-                                    <img src="./retrieve_consumption.png" alt="retrieve_consumption.png">
+                                    <img src="./register_consumption.png" alt="An example flow diagram">
                                 </p>
                                 <p>Our diagram describes the preceded story in a different way. We do this
                                     because everyone sees patterns differently. Some people see images and
@@ -256,11 +267,12 @@
                                 <p>This is where tools like Archi and Enterprise Architect fall short. They
                                     do not tell a story. They help people organise their mind in lines and
                                     blocks but leave a project unattended for a year, maybe two and put a different
-                                    architect on the project and you will probably hear the famous words: “This
-                                    is wrong, I will have to re-do everything!” This of course is the famous
-                                    mantra of the engineer and it is due to the fact that the story is not
-                                    clear. It is why projects fail, it is why turn-over is such a destructive
-                                    force in a company; to be fair, it is why gilded-cages were invented.</p>
+                                    architect on the project and you will probably hear the famous words: &quot;This
+                                    is wrong, I will have to re-do everything!&quot; This of course is the
+                                    famous mantra of the engineer and it is due to the fact that the story
+                                    is not clear and that the code does not reflect the story. It is why projects
+                                    fail, it is why turn-over is such a destructive force in a company; to
+                                    be fair, it is why gilded-cages were invented.</p>
                                 
 <h1>Agile Architecture</h1>
 
@@ -271,12 +283,14 @@
                                     describing the start and the end of the chapter, leaving everything else
                                     free to be imagined by the writer writing the chapter itself.</p>
                                 <p>This is exactly what we do when we create software. The architect creates
-                                    an outline of what needs to be done. <em>Component A should take the meter readings and calculate the consumption of a customer.</em> Again,
-                                    there is no need for diagrams. What this sentence does not tell you is <em>how</em> we
+                                    an outline of what needs to be done. <em>Component A should take
+the meter readings and calculate the consumption of a customer.</em> Again,
+                                    there is no need for diagrams. What this sentence does not tell you is
+<em>how</em> we
                                     need to deliver this story, but a combination of different diagrams might
                                     give us what we need. We might use a <em>flow</em> diagram to show the interaction
-                                    with other components. We might use a <em>logical data model</em> to explain
-                                    the data or information needed in the story.</p>
+                                    with other components. We might use a <em>logical data
+model</em> to explain the data or information needed in the story.</p>
                                 
 <h1>How we save Architecture</h1>
 
